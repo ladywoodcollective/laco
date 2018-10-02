@@ -7,5 +7,4 @@ LACO is a registered trademark in the UK
 
 Trademark number UK00003212987
 
-[home][home]
-  [home]: ladywoodcollective.github.io/laco
+[home][ladywoodcollective.github.io/laco]
