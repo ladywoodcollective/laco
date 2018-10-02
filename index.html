@@ -1,46 +1,96 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
-  <style>
-body {
-    background-color: linen;
-}
-
-h1 {
-    color: maroon;
-    margin-left: 40px;
-    font-family:"Arial"
-} 
-
-p {
-    font-family:"Arial"
-    font-size:7vw
-}
-  </style>
+  <header>
+    <h1 class="red">
+      ladywood collective
+    </h1>
+  </header>
   <title>
-    Ladywood Collective
-  </title>
-  <head>
     <h1>
       Ladywood Collective
     </h1>
-  </head>
-  <hr />
-  <p>
+  </title>
+  <body>
+    <style>
+    .red {
+      font-color: red;
+    }
+    .center {
+      text-align: center;
+    }
+    .col-container {
+      display: table;
+      width: 100%;
+    }
+    .col {
+      display: table-cell;
+    }
+    body {
+      font-family: sans-serif;
+      background-color: rgba(20, 64, 157, 0.3);
+    }
+    hr {
+      height: 2px;
+      width: 90%;
+      border-width: 0;
+      color: rgba(20, 64, 157, 1);
+      background-color: rgba(20, 64, 157, 1);
+    }
+    </style>
+    <hr style="width:100%" />
     <h2>
-      List of works
+      list of works
     </h2>
-    <dl>
-      <dt>
-        portsmouth
-      </dt>
-      <dd>
-        <b>
-          Jaime Wolfe <br>
-        </b>
-        <small>
-          solo piano
-        </small>
-      </dd>
-    </dl>
-  </p>
+    <div class="center">
+      <div class="col-container">
+        <div class="col">
+          <h3>
+            cam athanasiades
+          </h3>
+          <p>
+            <b> kyrie eleison </b>
+            <br>
+            orchestra
+            <br>
+            <small>
+              score
+            </small>
+          </p>
+          <hr />
+          <p>
+            <b> concertino </b>
+            <br>
+            trumpet, saxophone, piano, vibraphone
+            <br>
+            <small>
+              score
+            </small>
+          </p>
+        </div>
+        <div class="col">
+          <h3>
+            jaime wolfe
+          </h3>
+          <p>
+            <b> portsmouth </b>
+            <br>
+            solo piano
+            <br>
+            <small>
+              score
+            </small>
+          </p>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p style="text-align: left;">
+      <small>
+        <a href="/README.md">readme</a>
+        <a href="/LICENSE">license</a>
+      </small>
+    </p>
+  </footer>
 </html>
